@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670205529535' stop='1670205530921'>
+    <name>ProgressBar funcionality</name>
+    <title>ProgressBar funcionality</title>
+    <test-cases>
+        <test-case start='1670205529536' status='broken' stop='1670205530919'>
+            <name>should start progressbar and end at 75%: @smoke @id01</name>
+            <title>should start progressbar and end at 75%: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670205529542' status='passed' stop='1670205530540'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dc5a3bb1-0aa9-4145-ad60-df9724c25b58-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670205530543' status='passed' stop='1670205530608'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9874bfe0-897d-4be3-b808-f5019f2008ee-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='01801484-3c53-4ab5-95aa-08068fefe4f2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670205530622' status='passed' stop='1670205530731'>
+                    <name>POST /session/:sessionId/element/b9e574af-812b-4bfc-ba19-16fb7d71154f/click</name>
+                    <title>POST /session/:sessionId/element/b9e574af-812b-4bfc-ba19-16fb7d71154f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670205530732' status='passed' stop='1670205530917'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e3f67132-bf01-4906-a616-eab3d9d5a41d-attachment.png' type='image/png' size='40569'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'getValue')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'getValue')
+                    at ProgressBar.bar (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\progressBar.page.js:36:50)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\progressbar.suite.js:13:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

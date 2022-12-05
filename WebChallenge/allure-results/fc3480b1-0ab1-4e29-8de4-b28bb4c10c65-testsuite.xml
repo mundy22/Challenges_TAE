@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670213121080' stop='1670213122902'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670213121081' status='failed' stop='1670213122901'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670213121084' status='passed' stop='1670213122296'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6d52365a-2300-4326-9528-e266c21479aa-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670213122298' status='passed' stop='1670213122364'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14678c71-39ce-4b89-8b31-66235f1447c8-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='5184ac2a-9570-4a2d-b9e9-4f28b8e98235-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670213122378' status='passed' stop='1670213122515'>
+                    <name>POST /session/:sessionId/element/937c8109-6aad-4909-bc49-6a7801d67663/click</name>
+                    <title>POST /session/:sessionId/element/937c8109-6aad-4909-bc49-6a7801d67663/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670213122516' status='passed' stop='1670213122561'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='80643e34-299c-41d8-ba9e-155d70514f1a-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='84e3aad7-4712-4cc1-b74d-6182ab317144-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670213122567' status='passed' stop='1670213122635'>
+                    <name>POST /session/:sessionId/element/937c8109-6aad-4909-bc49-6a7801d67663/click</name>
+                    <title>POST /session/:sessionId/element/937c8109-6aad-4909-bc49-6a7801d67663/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670213122635' status='passed' stop='1670213122688'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='58a1fd64-c11d-4a96-bfbc-a904245ac0fa-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='d9103343-bc60-4a6c-9aaf-2108a0b8d8b1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670213122700' status='failed' stop='1670213122901'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1670213122702' status='passed' stop='1670213122899'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='75633827-93a9-46ad-85f3-a5e468a90f19-attachment.json' type='application/json' size='52'/>
+                                <attachment title='Screenshot' source='2fefa5c8-ece5-4c8b-a8f6-876bdc3b5628-attachment.png' type='image/png' size='38962'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has type:  object
+                Received has value: {}</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has type:  object
+                Received has value: {}
+                    at AjaxPage.ajaxFuncionality (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\ajax.page.js:31:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js:9:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670209390812' stop='1670209392227'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670209390812' status='broken' stop='1670209392226'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670209390816' status='passed' stop='1670209391805'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='06bbd9ba-202e-4ea2-9fa0-a84732726aec-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670209391808' status='passed' stop='1670209391884'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c93cf032-cd21-4857-a64b-98235ff1bf64-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='7744da3c-b024-4434-a81d-d292c92747e9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670209391896' status='passed' stop='1670209392012'>
+                    <name>POST /session/:sessionId/element/a1a3b37a-d1d8-4e25-b2cf-47041bf71a63/click</name>
+                    <title>POST /session/:sessionId/element/a1a3b37a-d1d8-4e25-b2cf-47041bf71a63/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670209392014' status='passed' stop='1670209392224'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='49ed603e-38e4-4776-b571-d744ed3d50e0-attachment.png' type='image/png' size='38965'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>waitUnit is not defined</message>
+                <stack-trace>ReferenceError: waitUnit is not defined
+                    at AjaxPage.ajaxFuncionality (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\ajax.page.js:24:9)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js:11:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

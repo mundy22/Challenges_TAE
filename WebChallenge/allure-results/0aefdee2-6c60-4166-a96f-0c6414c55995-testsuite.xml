@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670210386641' stop='1670210387968'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670210386642' status='broken' stop='1670210387967'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670210386646' status='passed' stop='1670210387485'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='72c7bc45-1bfd-4426-97fe-69d917c1a578-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670210387488' status='passed' stop='1670210387578'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d7279583-55ae-434e-a937-93a86d185d98-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='e3ebf420-46ee-4c56-8809-ce24e899062e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670210387592' status='passed' stop='1670210387729'>
+                    <name>POST /session/:sessionId/element/8cda7d8e-74dc-419b-9445-2de3a0bb42df/click</name>
+                    <title>POST /session/:sessionId/element/8cda7d8e-74dc-419b-9445-2de3a0bb42df/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670210387732' status='passed' stop='1670210387965'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f5e51817-f7d1-4ead-81c6-0a5f2b7411cb-attachment.png' type='image/png' size='38988'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Callback must be a function. Received 15000</message>
+                <stack-trace>TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received 15000
+                    at setTimeout (node:timers:141:3)
+                    at AjaxPage.ajaxFuncionality (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\ajax.page.js:24:9)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js:9:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

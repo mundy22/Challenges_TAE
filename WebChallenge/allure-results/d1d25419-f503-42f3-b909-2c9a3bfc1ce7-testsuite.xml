@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670212368376' stop='1670212369948'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670212368377' status='broken' stop='1670212369947'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670212368380' status='passed' stop='1670212369341'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='eeadf8cd-282a-4ad6-b6ad-09d2c497bd90-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212369344' status='passed' stop='1670212369414'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7ce9364a-7c8d-4345-b2fe-4424f6d13f13-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='b7150ff3-cf0f-498d-bdd8-b86c530234de-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212369428' status='passed' stop='1670212369539'>
+                    <name>POST /session/:sessionId/element/11678069-67c6-4575-970c-6658880f0ae2/click</name>
+                    <title>POST /session/:sessionId/element/11678069-67c6-4575-970c-6658880f0ae2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670212369540' status='passed' stop='1670212369593'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='299c6252-67cb-4ced-aef8-b19fa1e01206-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='27ba0985-7621-4ebe-ba3b-d5c6fa3c5c90-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212369600' status='passed' stop='1670212369660'>
+                    <name>POST /session/:sessionId/element/11678069-67c6-4575-970c-6658880f0ae2/click</name>
+                    <title>POST /session/:sessionId/element/11678069-67c6-4575-970c-6658880f0ae2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670212369661' status='passed' stop='1670212369742'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fb5760c9-c7fc-4ed2-92d5-c49752f14d0e-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='928ba481-2d6d-43bc-bcb2-dc1dcc9e54f1-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212369748' status='passed' stop='1670212369945'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='89ff1566-c3d1-41e9-824e-dd3f3537467e-attachment.png' type='image/png' size='38980'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\node_modules\@wdio\utils\build\shim.js:253:38
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async AjaxPage.ajaxFuncionality (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\ajax.page.js:24:9)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js:9:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

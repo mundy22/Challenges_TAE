@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670210150115' stop='1670210152076'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670210150116' status='broken' stop='1670210152075'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670210150120' status='passed' stop='1670210151657'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bf6043f5-1f5b-4b45-9da4-c2ce34057e8e-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670210151660' status='passed' stop='1670210151742'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fbe9f785-3748-4bba-89ec-1dea1b75593b-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='f494ba08-6918-4852-857e-1511828dd0ff-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670210151756' status='passed' stop='1670210151866'>
+                    <name>POST /session/:sessionId/element/3127ab21-3f90-4c6c-a3ce-2c774bf084c8/click</name>
+                    <title>POST /session/:sessionId/element/3127ab21-3f90-4c6c-a3ce-2c774bf084c8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670210151868' status='passed' stop='1670210152074'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1917b8fa-906f-40fd-a89f-6105b0d59921-attachment.png' type='image/png' size='39008'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.setTimeout is not a function</message>
+                <stack-trace>TypeError: this.setTimeout is not a function
+                    at AjaxPage.ajaxFuncionality (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\ajax.page.js:24:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js:9:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

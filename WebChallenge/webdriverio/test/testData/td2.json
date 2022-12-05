@@ -1,0 +1,8 @@
+[
+    {
+        "creds": ["tomsmith", "SuperSecretPassword!"]
+    },
+    {
+        "creds": ["tomsmith", "wrongpassword!"]
+    }
+]

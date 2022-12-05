@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670212856995' stop='1670212858753'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670212856997' status='broken' stop='1670212858752'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670212857003' status='passed' stop='1670212857999'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7f0fc7cb-0a57-4d41-897e-436aa8de95dc-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212858003' status='passed' stop='1670212858086'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ef3d2afe-04b4-4e81-9228-8d9be6b32c54-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='c552da09-e454-4754-9045-6eeb0f9d30b0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212858103' status='passed' stop='1670212858253'>
+                    <name>POST /session/:sessionId/element/65bf5122-53a3-42ee-a217-260f74a7837e/click</name>
+                    <title>POST /session/:sessionId/element/65bf5122-53a3-42ee-a217-260f74a7837e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670212858254' status='passed' stop='1670212858325'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1fb1087a-bf9e-498e-b2f9-0a6f1428a403-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='47a63b1b-4552-45b8-8e6b-c71b75d0c8da-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212858333' status='passed' stop='1670212858414'>
+                    <name>POST /session/:sessionId/element/65bf5122-53a3-42ee-a217-260f74a7837e/click</name>
+                    <title>POST /session/:sessionId/element/65bf5122-53a3-42ee-a217-260f74a7837e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670212858415' status='passed' stop='1670212858489'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7076af3c-7d8b-4517-9c27-01f885de36f2-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='8bb63795-b715-4916-b765-3584bf41c3d6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670212858500' status='broken' stop='1670212858752'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1670212858502' status='passed' stop='1670212858750'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='e093e81b-1b73-470d-9c0d-e0a4bc842f4f-attachment.json' type='application/json' size='52'/>
+                                <attachment title='Screenshot' source='62804593-8566-4648-af4d-b9517f5e33b0-attachment.png' type='image/png' size='38945'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>contentDiv is not defined</message>
+                <stack-trace>ReferenceError: contentDiv is not defined
+                    at AjaxPage.ajaxFuncionality (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\ajax.page.js:33:51)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js:9:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670202930182' stop='1670202931459'>
+    <name>ProgressBar funcionality</name>
+    <title>ProgressBar funcionality</title>
+    <test-cases>
+        <test-case start='1670202930183' status='passed' stop='1670202931458'>
+            <name>should start progressbar and end at 75%: @smoke @id01</name>
+            <title>should start progressbar and end at 75%: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670202930187' status='passed' stop='1670202931118'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='526cd559-733f-440c-81cb-a9c6462dbf13-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670202931121' status='passed' stop='1670202931202'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6f6963b1-93e7-43d9-ae57-6c5d353f2e16-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='516ab9e2-ac74-481c-92d4-ef574ceafe65-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670202931215' status='passed' stop='1670202931328'>
+                    <name>POST /session/:sessionId/element/70e37751-ac89-4b7d-bc6b-6293e02eb2ba/click</name>
+                    <title>POST /session/:sessionId/element/70e37751-ac89-4b7d-bc6b-6293e02eb2ba/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670202931330' status='passed' stop='1670202931373'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='83b3bcee-efad-4881-9926-45765840fb1f-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='9e1b9b65-c009-418a-9db9-36d35c6332c9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670202931379' status='passed' stop='1670202931457'>
+                    <name>POST /session/:sessionId/element/4a834f7c-c2a0-4046-9f71-af0058eb8e38/click</name>
+                    <title>POST /session/:sessionId/element/4a834f7c-c2a0-4046-9f71-af0058eb8e38/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670208228574' stop='1670208229901'>
+    <name>ProgressBar funcionality</name>
+    <title>ProgressBar funcionality</title>
+    <test-cases>
+        <test-case start='1670208228574' status='broken' stop='1670208229900'>
+            <name>should start progressbar and end at 75%: @smoke @id01</name>
+            <title>should start progressbar and end at 75%: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670208228580' status='passed' stop='1670208229513'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0f5e8e19-601f-4ef2-8e6d-2908e262bdd0-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670208229516' status='passed' stop='1670208229584'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e9c8b885-73a0-432b-8a49-0a9adb0c0aec-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='4b7a9868-c743-4d07-a9cb-8c810bc24d86-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670208229598' status='passed' stop='1670208229692'>
+                    <name>POST /session/:sessionId/element/898fb3ff-ff45-44db-a881-3fbda223b4f0/click</name>
+                    <title>POST /session/:sessionId/element/898fb3ff-ff45-44db-a881-3fbda223b4f0/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670208229693' status='passed' stop='1670208229739'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='83ff7f49-0368-4b27-87d6-5546dfa744a5-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='6c6020e6-cbb7-4f61-a53c-0a8771ef91ae-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670208229746' status='passed' stop='1670208229898'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a931e80f-3006-4f8f-89b5-abff596c1b59-attachment.png' type='image/png' size='40668'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>barNumber is not defined</message>
+                <stack-trace>ReferenceError: barNumber is not defined
+                    at ProgressBar.bar (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\pageobjects\progressBar.page.js:40:9)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\progressbar.suite.js:13:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

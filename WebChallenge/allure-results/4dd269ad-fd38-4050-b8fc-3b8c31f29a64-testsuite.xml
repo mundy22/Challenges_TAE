@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670211058811' stop='1670211118830'>
+    <name>Ajax funcionality</name>
+    <title>Ajax funcionality</title>
+    <test-cases>
+        <test-case start='1670211058811' status='broken' stop='1670211118828'>
+            <name>should  should be able to wait for an element to show up: @smoke @id01</name>
+            <title>should  should be able to wait for an element to show up: @smoke @id01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1670211058815' status='passed' stop='1670211059719'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3b65244a-bd4b-4679-af7b-957f8284b4ec-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670211059723' status='passed' stop='1670211059789'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cfca4d20-2892-49da-ba08-4a22dd1bfc26-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='ac288250-f684-47d0-9cd5-1ba5085da7e1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670211059807' status='passed' stop='1670211060030'>
+                    <name>POST /session/:sessionId/element/57feb20d-822f-4769-9360-3ca5501f29b9/click</name>
+                    <title>POST /session/:sessionId/element/57feb20d-822f-4769-9360-3ca5501f29b9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670211060032' status='passed' stop='1670211060140'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6ac5e85b-293a-41d7-85a1-f2937c7043b7-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='6f4732d5-335a-4b84-a973-21303e4a8f5e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670211060150' status='passed' stop='1670211060246'>
+                    <name>POST /session/:sessionId/element/57feb20d-822f-4769-9360-3ca5501f29b9/click</name>
+                    <title>POST /session/:sessionId/element/57feb20d-822f-4769-9360-3ca5501f29b9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670211060247' status='passed' stop='1670211060306'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a0ae37fb-1f1e-42c8-ae51-5bb80c839075-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='3c875eaa-bdf4-437a-b7a0-89e12bf34a79-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Ajax funcionality should  should be able to wait for an element to show up: @smoke @id01" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Ajax funcionality should  should be able to wait for an element to show up: @smoke @id01" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\test\specs\ajax.suite.js)
+                    at createTimeoutError (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\cajas\Downloads\Mobile Project WDIO\webdriverio\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
